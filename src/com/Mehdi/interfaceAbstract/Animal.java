@@ -6,6 +6,7 @@ package com.Mehdi.interfaceAbstract;
 
 
 interface Animal{
+        // All methods are by default : Public
 
         // TODO - Give relevant names
         // TODO - Implement inheritance
@@ -19,7 +20,7 @@ interface Animal{
         void makeSound();
 
 
-        // Default??
+        // Default
         default void typeOfAnimal(String typeOfAnimal) {
             System.out.println(typeOfAnimal);
         }
